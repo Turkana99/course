@@ -1,0 +1,25 @@
+<div class="my_navbar w-100" (scroll)="onWindowScroll()">
+    <header class="scd_header py-3 mb-4">
+        <div class="container d-flex flex-wrap justify-content-between">
+            <div class="pt-2">
+                <a href="/" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto text-decoration-none">
+                    <svg class="bi me-2" width="40" height="32">
+                        <use xlink:href="#bootstrap"></use>
+                    </svg>
+                    <span class="fs-4 frs_title">TM <span class="scd_title"> <i class="fa-solid fa-user-graduate"></i> COURSE</span></span>
+                </a>
+            </div>
+            <div class="pt-2">
+                <ul class="nav me-auto pt-1">
+                    <li class="nav-item"><a class="nav-link px-2"  routerLink="home"  [routerLinkActiveOptions]="{ exact: true }" routerLinkActive="router-link-active">HOME</a>
+                    </li>
+                    <li class="nav-item"><a  class="nav-link  px-2"  routerLink="" [routerLinkActiveOptions]="{ exact: true }" routerLinkActive="router-link-active">ABOUT</a></li>
+                    <li class="nav-item"><a  class="nav-link  px-2"  routerLink="" [routerLinkActiveOptions]="{ exact: true }" routerLinkActive="router-link-active">CATEGORIES</a></li>
+                    <li class="nav-item"><a  class="nav-link  px-2"  routerLink="" [routerLinkActiveOptions]="{ exact: true }" routerLinkActive="router-link-active">OUR TEACHER</a></li>
+                    <li class="nav-item"><a  class="nav-link  px-2"  routerLink="blog" [routerLinkActiveOptions]="{ exact: true }" routerLinkActive="router-link-active">BLOG</a></li>
+                    <li class="nav-item"><a  class="nav-link  px-2"  routerLink="contact" [routerLinkActiveOptions]="{ exact: true }" routerLinkActive="router-link-active">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+</div>

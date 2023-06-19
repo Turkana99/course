@@ -1,0 +1,66 @@
+.my_navbar {
+  position: fixed !important;
+  z-index: 1000;
+  padding: 0px !important;
+}
+.router-link-active {
+  color: #fdc632 !important;
+  font-weight: bold !important;
+}
+
+ul {
+  list-style-type: none !important;
+  padding: 0px !important;
+}
+ul li {
+  padding: 3px 2px;
+  color: #002347 !important;
+}
+ul li i {
+  padding: 0px 5px !important;
+}
+.my_info li:nth-child(odd),
+.work_info li {
+  color: #b8aca2 !important;
+}
+
+/*main header*/
+.scd_header {
+  background-color: transparent;
+  color: black;
+  width: 100%;
+  margin: auto;
+}
+
+ul li a {
+  color: #002347;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+ul li a:hover {
+  color: #fdc632;
+}
+.frs_title {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px !important;
+  color: #fdc632 !important;
+  font-weight: bold;
+}
+
+.scd_title {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  color: #002347 !important;
+  font-weight: bold;
+}
+
+.navbar-inverse {
+  .scd_header {
+    width: 100% !important;
+    background-color: white !important;
+    transition: 0.4s;
+    padding: 15px 0px !important;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+  }
+}
